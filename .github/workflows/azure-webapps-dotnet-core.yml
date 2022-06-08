@@ -16,7 +16,7 @@ permissions:
   contents: read
 
 
-
+--building
 jobs:
 build:
   runs-on: ubuntu-latest
@@ -31,11 +31,11 @@ build:
 
     - name: Set up dependeny caching for faster builds
       uses: actions/cache@v3 
-        with:
-          path: ~/.nuget/packages
-          key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-nuget-
+      with:
+        path: ~/.nuget/packages
+        key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-nuget-
 
     - name: Build with dotnet
       run: dotnet build --configuration Release
