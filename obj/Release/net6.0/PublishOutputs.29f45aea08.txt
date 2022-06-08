@@ -1,0 +1,7 @@
+/home/mdakheel/MyFirstDotNetWebApp/mdakheel/myapp/MyFirstDotNetWebApp
+/home/mdakheel/MyFirstDotNetWebApp/mdakheel/myapp/appsettings.Development.json
+/home/mdakheel/MyFirstDotNetWebApp/mdakheel/myapp/appsettings.json
+/home/mdakheel/MyFirstDotNetWebApp/mdakheel/myapp/MyFirstDotNetWebApp.dll
+/home/mdakheel/MyFirstDotNetWebApp/mdakheel/myapp/MyFirstDotNetWebApp.deps.json
+/home/mdakheel/MyFirstDotNetWebApp/mdakheel/myapp/MyFirstDotNetWebApp.runtimeconfig.json
+/home/mdakheel/MyFirstDotNetWebApp/mdakheel/myapp/MyFirstDotNetWebApp.pdb
